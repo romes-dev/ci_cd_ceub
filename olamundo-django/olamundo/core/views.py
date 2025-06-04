@@ -5,5 +5,5 @@ def hello_world(request):
     """
     A simple view that returns a 'Hello, World!' response.
     """
-    return HttpResponse("Olá, Mundo do CI/CD!")
+    return HttpResponse("Olá, Mundo do CI/CD! Com GithubActions")
 # Create your views here.
